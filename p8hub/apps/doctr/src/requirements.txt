@@ -1,2 +1,2 @@
 python-doctr[tf]==0.7.0
-streamlit>=1.0.0
+streamlit>=1.37.0
