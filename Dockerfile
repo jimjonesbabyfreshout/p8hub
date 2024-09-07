@@ -8,7 +8,7 @@ RUN npm install
 COPY frontend /ui
 RUN npm run build
 
-FROM alpine
+FROM alpine:3.20.3
 
 ENV PYTHONUNBUFFERED=1
 RUN apk --update --upgrade add python3 python3-dev gcc musl-dev jpeg-dev zlib-dev libffi-dev cairo-dev pango-dev gdk-pixbuf-dev docker-cli docker-compose
